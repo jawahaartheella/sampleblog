@@ -1,0 +1,108 @@
+.my-nav{
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.3);
+    background-color: rgb(255 255 255 / 80%) !important;
+    backdrop-filter: blur(10px);
+}
+.main-header{
+    background-image: url(../images/home-header-img.jpg);
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+.default-header{
+    background-image: url(../images/home-header-img.jpg);
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.header-text-holder, .subscribe-holder{
+    text-align: center;
+    color: white;
+}
+.default-header-text-holder{
+    color: white;
+}
+.default-header-text-holder h1{
+    font-size: 2em;
+}
+.home-body-content{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.default-body-content{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.post-body-content {
+    padding-top: 100px;
+}
+.home-body-content .posts-card{
+    margin-bottom: 25px;
+    transition-duration: 0.5s;
+}
+.default-body-content .list-group a{
+    padding-top: 20px;
+}
+.default-body-content .list-group .list-group-item h3{
+    font-size: 1.3em;
+}
+.posts-card:hover{
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+    transition-duration: 0.5s;
+}
+.posts-card h3{
+    font-size: 1.2em;
+}
+.blog-post-header h6 a{
+    color: darkblue;
+    text-decoration: none;
+}
+.blog-post-header h6 a:hover{
+    text-decoration: underline;
+}
+.blog-post-header h1{
+    font-size: 3.5rem;
+    margin-bottom: 50px;
+}
+.blog-post-header img {
+    width: 100%;
+    height: auto;
+    max-height: 800px;
+    object-fit: cover;
+}
+.blog-post-content h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.blog-post-content p{
+    font-size: 1.3rem;
+}
+.blog-contributer{
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+}
+
+.blog-contributer img{
+    width: 400px;
+    height: auto;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+}
+.contributer-img{
+    padding: 15px;
+}
+.about-contributer{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+.blog-contributer p{
+    margin: 0;
+}
+.main-footer{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+    background-color: black;
+}
+.main-footer p{
+    margin: 0px;
+}
